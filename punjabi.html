@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
+  <title>Gujarati</title>
+  <link rel="stylesheet" href="./reset.css">
+  <link rel="stylesheet" href="./globalStyles.css">
+  <link rel="stylesheet" href="./components.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link rel="stylesheet" href="./menu.css">
+  <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+
+<body>
+
+    <div class="nav">
+      <div class="container">
+        <div class="nav__wrapper">
+          <a href="./index.html" class="logo">
+          <img src="./img/logo.svg" alt="Tiffin Service">
+          </a>
+          <nav>
+            <div class="nav__icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                class="feather feather-menu">
+                <line x1="3" y1="12" x2="21" y2="12" />
+                <line x1="3" y1="6" x2="21" y2="6" />
+                <line x1="3" y1="18" x2="21" y2="18" />
+              </svg>
+            </div>
+            <div class="nav__bgOverlay"></div>
+            <ul class="nav__list">
+              <div class="nav__close">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                  class="feather feather-x">
+                  <line x1="18" y1="6" x2="6" y2="18" />
+                  <line x1="6" y1="6" x2="18" y2="18" />
+                </svg>
+              </div>
+              <div class="nav__list__wrapper">
+                <li><a class="nav__link" href="./index.html">Home</a></li>
+                <li><a class="nav__link" href="./gujarati.html">Gujarati</a></li>
+                <li><a class="nav__link" href="./kathiyawadi.html">Kathiyawadi</a></li>
+                <li><a class="nav__link" href="./punjabi.html">Punjabi</a></li>
+                <li><a class="nav__link" href="./other.html">Other</a></li>
+                <li><a class="nav__link" href="./about.html">About</a></li>
+                <li><a class="nav__link" href="./contact.html">Contact</a></li>
+                <li><i class='bx bx-shopping-bag ' id="cart-icon" ></i></li>
+                <li><a href="./logout.php" class="btn primary-btn">Log Out</a></li>
+
+              <div class="cart">
+                <h2 class="cart-title">Your Cart</h2>
+                <div class="cart-content">
+                    <!-- <div class="cart-box">
+                      <img  src="./images/food-1.png" class="cart-img" alt="" >
+                                <div class="detail-box">
+                                  <div class="cart-food-title">paneer</div>
+                                  <div class="cart-fprice">₹250</div>
+                                  <input type="number" class="cart-quantity" value="1" >
+                                </div>           
+                                <i class='bx bxs-trash cart-remove' ></i>
+                    </div> -->
+                </div>
+                <div class="total">
+                  <div class="total-title">Total</div>
+                  <div class="total-price">₹0</div>
+                </div>
+                  <input type="radio" name="swaminarayan" id="">
+                  <input type="radio" name="swaminarayan" id="">
+                  <button type="button" class="btn-buy add-to-btn">Buy Now</button>
+                  <i class='bx bx-x' id="close-cart" ></i>
+              </div>
+
+              </div>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+    
+
+
+  <section id="page__title" data-aos="fade-up">
+    <div class="container">
+      <h2 class="page__title__text">
+        Top Punjabi Food
+      </h2>
+    </div>
+  </section>
+  
+  
+  <section id="ourSpecials" data-aos="fade-up">
+    <div class="container">
+      <h3 class="ourSpecials__title">Starter</h3>
+      <div class="ourSpecials__wrapper">
+        
+        <div class="ourSpecials__item">
+          <div class="ourSpecials__item__img">
+            <img src="./img/paneer-tikka-masala.png" alt="food img">
+          </div>
+          <div class="ourSpecials__item__info">
+            <h3 class="ourSpecials__item__title">
+              Paneer Tikka Masala
+            </h3>
+          </div>
+        </div>
+
+        <div class="ourSpecials__item">
+          <div class="ourSpecials__item__img">
+            <img src="./img/kaju-masala.jpeg" alt="food img">
+          </div>
+          <div class="ourSpecials__item__info">
+            <h3 class="ourSpecials__item__title">
+              Kaju Masala
+            </h3>
+          </div>
+        </div>
+
+        <div class="ourSpecials__item">
+          <div class="ourSpecials__item__img">
+            <img src="./img/chole-bhature.jpg" alt="food img">
+          </div>
+          <div class="ourSpecials__item__info">
+            <h3 class="ourSpecials__item__title">
+              Cholle Bature
+            </h3>
+          </div>
+        </div>
+  
+        
+      </div>
+    </div>
+  </section>
+  
+  
+  <section id="dishGrid" data-aos="fade-up">
+    <div class="container">
+      <h2 class="dishGrid__title">
+        Starter
+      </h2>
+      <div class="food_content">
+
+        <div class="food-box">
+          <img src="./img/paneer-chilli.jpeg" class="food-img" alt="">
+          <h2 class="food-title"> Paneer Chilli </h2>
+          <span class="price">₹30</span>
+          <i class='bx bx-shopping-bag add-cart' ></i>
+        </div>
+
+        <div class="food-box">
+          <img src="./img/masala-papad.jpeg" class="food-img" alt="">
+          <h2 class="food-title"> Masala Papad </h2>
+          <span class="price">₹10</span>
+          <i class='bx bx-shopping-bag add-cart' ></i>
+        </div>
+        
+        <div class="food-box">
+          <img src="./img/paratha.jpg" class="food-img" alt="">
+          <h2 class="food-title">Paratha </h2>
+          <span class="price">₹15</span>
+          <i class='bx bx-shopping-bag add-cart' ></i>
+        </div>
+
+        <div class="food-box">
+          <img src="./img/spring-roll.jpeg" class="food-img" alt="">
+          <h2 class="food-title">Spring Roll </h2>
+          <span class="price">₹20</span>
+          <i class='bx bx-shopping-bag add-cart' ></i>
+        </div>
+        
+      </div>
+    </div>
+  </section>
+  
+    
+    <section id="dishGrid" data-aos="fade-up">
+      <div class="container">
+        <h2 class="dishGrid__title">
+          Chapati/Naan
+        </h2>
+        <div class="food_content">
+  
+          <div class="food-box">
+            <img src="./img/Roti-Chapati.jpg" class="food-img" alt="">
+            <h2 class="food-title">Chapati </h2>
+            <span class="price">₹10</span>
+            <i class='bx bx-shopping-bag add-cart' ></i>
+          </div>
+  
+          <div class="food-box">
+            <img src="./img/naan.jpg" class="food-img" alt="">
+            <h2 class="food-title">Naan </h2>
+            <span class="price">₹15</span>
+            <i class='bx bx-shopping-bag add-cart' ></i>
+          </div>
+          
+          <div class="food-box">
+            <img src="./img/butter-naan.jpg" class="food-img" alt="">
+            <h2 class="food-title">Cheese Naan </h2>
+            <span class="price">₹20</span>
+            <i class='bx bx-shopping-bag add-cart' ></i>
+          </div>
+  
+          
+        </div>
+      </div>
+    </section>
+  
+  
+  <section id="dishGrid" data-aos="fade-down">
+    <div class="container">
+      <h2 class="dishGrid__title">
+        Sabji
+      </h2>
+      <div class="food_content">
+
+        <div class="food-box">
+          <img src="./img/paneer-tikka-masala.png" class="food-img" alt="">
+          <h2 class="food-title">Paneer Tikka Masala </h2>
+          <span class="price">₹30</span>
+          <i class='bx bx-shopping-bag add-cart' ></i>
+        </div>
+
+        <div class="food-box">
+          <img src="./img/kaju-masala.jpeg" class="food-img" alt="">
+          <h2 class="food-title">Kaju Masala </h2>
+          <span class="price">₹30</span>
+          <i class='bx bx-shopping-bag add-cart' ></i>
+        </div>
+        
+        <div class="food-box">
+          <img src="./img/paneer-angara.jpg" class="food-img" alt="">
+          <h2 class="food-title">Panner Angara </h2>
+          <span class="price">₹30</span>
+          <i class='bx bx-shopping-bag add-cart' ></i>
+        </div>
+
+        <div class="food-box">
+          <img src="./img/palak-paneer.jpg" class="food-img" alt="">
+          <h2 class="food-title">Palak Paneer </h2>
+          <span class="price">₹30</span>
+          <i class='bx bx-shopping-bag add-cart' ></i>
+        </div>
+        
+      </div>
+    </div>
+  </section>
+  
+  
+  <section id="dishGrid" data-aos="fade-down">
+    <div class="container">
+      <h2 class="dishGrid__title">
+        Rice
+      </h2>
+      <div class="food_content">
+
+        <div class="food-box">
+          <img src="./img/jeera-rice.jpg" class="food-img" alt="">
+          <h2 class="food-title">Jeera Rice </h2>
+          <span class="price">₹25</span>
+          <i class='bx bx-shopping-bag add-cart' ></i>
+        </div>
+
+        <div class="food-box">
+          <img src="./img/dal-fry.jpg" class="food-img" alt="">
+          <h2 class="food-title">Dal Fry </h2>
+          <span class="price">₹20</span>
+          <i class='bx bx-shopping-bag add-cart' ></i>
+        </div>
+        
+        <div class="food-box">
+          <img src="./img/pulav.jpg" class="food-img" alt="">
+          <h2 class="food-title"> Pulav </h2>
+          <span class="price">₹30</span>
+          <i class='bx bx-shopping-bag add-cart' ></i>
+        </div>
+        
+      </div>
+    </div>
+  </section>
+  
+  
+  <footer>
+    <div class="container">
+      <div class="footer__wrapper">
+        <div class="footer__col1">
+          <div class="footer__logo">
+            <img src="./img/footer-logo.svg" alt="Tiffin Service">
+          </div>
+          <p class="footer__desc">
+            Fresh and delicious traditional Gujarati, Punjabi and kathiyawadi food to delight the whole family.
+          </p>
+          <div class="footer__socials">
+            <h4 class="footer__socials__title">Follow us</h4>
+            <ol class="footer__socials__list">
+              <li>
+                <a href="https://www.facebook.com/">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"
+                    class="feather feather-facebook">
+                    <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" />
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.instagram.com/">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"
+                    class="feather feather-instagram">
+                    <rect x="2" y="2" width="20" height="20" rx="5" ry="5" />
+                    <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
+                    <line x1="17.5" y1="6.5" x2="17.51" y2="6.5" />
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a href="https://twitter.com/">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"
+                    class="feather feather-twitter">
+                    <path
+                      d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z" />
+                  </svg>
+                </a>
+              </li>
+            </ol>
+          </div>
+        </div>
+        <div class="footer__col2">
+          <h3 class="footer__text__title">
+            Links
+          </h3>
+          <ol class="footer__text">
+            <li>
+              <a href="index.html">Home</a>
+            </li>
+            <li>
+              <a href="gujarati.html">Gujarati</a>
+            </li>
+            <li>
+              <a href="kathiyawadi.html">Kathiyawadi</a>
+            </li>
+            <li>
+              <a href="punjabi.html">Punjabi</a>
+            </li>
+            <li>
+              <a href="other.html">Other</a>
+            </li>
+            <li>
+              <a href="other.html">Order Now</a>
+            </li>
+            <li>
+              <a href="./about.html">About Us</a>
+            </li>
+          </ol>
+        </div>
+        <div class="footer__col3">
+          <h3 class="footer__text__title">
+            Support
+          </h3>
+          <ol class="footer__text">
+            <li>
+              <a href="./contact.html">contact Us</a>
+            </li>
+            <li>
+              <a href="#">Support Center</a>
+            </li>
+            <li>
+              <a href="./contact.html">Feedback</a>
+            </li>
+          </ol>
+        </div>
+        <div class="footer__col4">
+          <h3 class="footer__text__title">
+            Contact
+          </h3>
+          <ol class="footer__text">
+            <li>
+              <a href="#">+91 12345 67895</a>
+            </li>
+            <li>
+              <a href="#">IT.SPCE@gmail.com</a>
+            </li>
+            <li>
+              <a href="#">Anand, Gujarat</a>
+            </li>
+          </ol>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <div id="copyright">
+    <div class="container">
+      <p class="copyright__text">
+        © copyright 2021 | All rights reserved
+      </p>
+    </div>
+  </div>
+  
+  
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  
+  <script src="./cart.js"></script>
+  <script src="./main.js"></script>
+</body>
+
+</html>
